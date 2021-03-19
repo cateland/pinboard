@@ -1,0 +1,73 @@
+{
+  "name": "pinboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@no-day/fp-ts-graph": "0.1.0-rc.2",
+    "@react-pdf-viewer/core": "^2.4.1",
+    "@react-pdf-viewer/default-layout": "^2.4.1",
+    "@react-pdf-viewer/highlight": "^2.4.1",
+    "@react-pdf-viewer/search": "^2.4.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.20.5",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "alga-ts": "^1.0.2",
+    "antd": "^4.14.0",
+    "bootstrap": "^4.6.0",
+    "dagre": "^0.8.5",
+    "fp-ts": "^2.9.5",
+    "install": "^0.13.0",
+    "npm": "^7.6.3",
+    "pdfjs-dist": "^2.6.347",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-flow-renderer": "^9.1.2",
+    "react-pdf": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.2.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier:write": "prettier --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "@types/dagre": "^0.7.44",
+    "@types/react-pdf": "^5.0.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "@types/uuid": "^8.3.0"
+  }
+}

@@ -7,6 +7,9 @@ Not implemented (Entity only weighted graph)
 
 Entity -> Annotation -> Document
 
+To play with the app 
+`npm ci && npm start`
+
 
 # Getting Started with Create React App
 

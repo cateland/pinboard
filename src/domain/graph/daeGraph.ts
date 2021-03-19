@@ -210,7 +210,7 @@ const entity1 = entity.create(
 export const initialGraph = G.overlay<MyVertex>(
   G.overlay(G.vertex(doc2), G.vertex(doc3)),
   G.overlay<MyVertex>(
-    G.edge(<MyVertex>annotation1, doc1),
+    G.edge<MyVertex>(annotation1, doc1),
     G.edge<MyVertex>(entity1, annotation1)
   )
 );
